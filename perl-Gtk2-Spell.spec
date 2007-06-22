@@ -4,7 +4,7 @@
 Summary: Perl module for the gtkspell library
 Name:    perl-%module
 Version: 1.03
-Release: %mkrel 6
+Release: %mkrel 7
 License: GPL or Artistic
 Group:   Development/GNOME and GTK+
 Source:  http://ovh.dl.sourceforge.net/sourceforge/gtk2-perl/%module-%version.tar.bz2
