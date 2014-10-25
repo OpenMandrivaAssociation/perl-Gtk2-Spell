@@ -1,2 +1,4 @@
+removed_sources:
+  Gtk2-Spell-1.03.tar.bz2: cfd21e46c0f26ee9a6f702b244753c502827ae48
 sources:
-  "Gtk2-Spell-1.03.tar.bz2": cfd21e46c0f26ee9a6f702b244753c502827ae48
+  Gtk2-Spell-1.04.tar.gz: c4c042bbdf8e247b6c8a7f8fa8f27f295bc3adb1
