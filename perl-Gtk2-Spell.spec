@@ -9,7 +9,7 @@ Summary:    Perl module for the gtkspell library
 
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
-Url:        http://gtk2-perl.sf.net/
+Url:        https://gtk2-perl.sf.net/
 Source0:    http://sourceforge.net/projects/gtk2-perl/files/Gtk2_Spell/%{upstream_version}/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires: glitz-devel
 BuildRequires: gtkspell-devel 
