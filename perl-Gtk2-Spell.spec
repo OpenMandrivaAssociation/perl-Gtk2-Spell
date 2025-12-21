@@ -11,6 +11,7 @@ License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        https://gtk2-perl.sf.net/
 Source0:    http://sourceforge.net/projects/gtk2-perl/files/Gtk2_Spell/%{upstream_version}/%{upstream_name}-%{upstream_version}.tar.gz
+BuildRequires:	make
 BuildRequires: glitz-devel
 BuildRequires: gtkspell-devel 
 BuildRequires: perl-ExtUtils-Depends 
