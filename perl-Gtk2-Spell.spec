@@ -1,16 +1,16 @@
 %define upstream_name    Gtk2-Spell
-%define upstream_version 1.04
+%define upstream_version 1.05
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Version:    %{upstream_version}
+Release:	1
 
 Summary:    Perl module for the gtkspell library
 
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        https://gtk2-perl.sf.net/
-Source0:    http://sourceforge.net/projects/gtk2-perl/files/Gtk2_Spell/%{upstream_version}/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/X/XA/XAOC/Gtk2-Spell-%{upstream_version}.tar.gz
 BuildRequires:	make
 BuildRequires: glitz-devel
 BuildRequires: gtkspell-devel 
