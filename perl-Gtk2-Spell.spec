@@ -1,16 +1,14 @@
 %define upstream_name    Gtk2-Spell
-%define upstream_version 1.05
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:	1
+Version:    1.05
+Release:	2
 
 Summary:    Perl module for the gtkspell library
 
 License:    GPL+ or Artistic
 Group:      Development/GNOME and GTK+
 Url:        https://gtk2-perl.sf.net/
-Source0:    https://cpan.metacpan.org/authors/id/X/XA/XAOC/Gtk2-Spell-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/X/XA/XAOC/Gtk2-Spell-%{version}.tar.gz
 BuildRequires:	make
 BuildRequires: glitz-devel
 BuildRequires: gtkspell-devel 
@@ -29,7 +27,7 @@ The GtkSpell graphical user interface library allow to write applications that
 highlight mis-spelled words.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 find -type d -name CVS | rm -rf 
 
 %build
